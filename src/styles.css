@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+input[type="radio"] {
+  display: none;
+}
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+.btn {
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  display: block;
+  margin: 10px auto 0 auto;
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+.btn:hover {
+  background-color: tomato;
+  color: black;
+}
+.btn:active {
+  transform: translateY(4px);
+}
